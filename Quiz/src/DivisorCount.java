@@ -4,22 +4,13 @@ public class DivisorCount {
         int right = 17;
         int answer = 0;
         for (int i= left; i<=right; i++){
-            if(Divisor(i) % 2 == 0){
-                answer += i;
-            }else {
+            if(i % Math.sqrt(i) == 0){
                 answer -= i;
+            }else {
+                answer += i;
             }
         }
         System.out.println(answer);
 
-    }
-    public static int Divisor(int x){
-        int count = 0;
-        for(int i =1; i<=x; i++){
-           if(x %i == 0){
-               count++;
-           }
-        }
-        return count;
     }
 }
