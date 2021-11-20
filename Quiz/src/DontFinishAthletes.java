@@ -6,8 +6,8 @@ public class DontFinishAthletes {
         String[] completion = {"stanko", "ana", "mislav"};
         Arrays.sort(participant);
         Arrays.sort(completion);
-        String answer = "";
-        int i = 0;
+        String answer;
+        int i;
         for(i=0; i<participant.length; i++){
             if(!participant[i].equals(completion[i])){
                 break;
