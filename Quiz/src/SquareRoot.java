@@ -13,4 +13,10 @@ public class SquareRoot {
         }
         System.out.println(answer);
     }
+    /*
+    if(Math.pow((int)Math.sqrt(n),2) == n){
+        return (long) Math.pow(Math.sqrt(n)+1,2);
+     }
+     return -1
+     */
 }
