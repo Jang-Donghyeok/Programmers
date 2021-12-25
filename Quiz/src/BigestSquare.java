@@ -10,6 +10,7 @@ public class BigestSquare {
 
         int max = 0;
 
+
         // 만들 수 있는 정사각형 검사
         for(int i=1; i<newBoard.length; i++){
             for(int j=1; j<newBoard[i].length; j++){
